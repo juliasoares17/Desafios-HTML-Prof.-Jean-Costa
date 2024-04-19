@@ -1,0 +1,33 @@
+
+
+.começo {margin: 60 px auto;
+        position:relative;
+        bottom: 34px;
+        z-index: -1;}
+.capa {text-align: center;
+      position: relative;
+    bottom: 25px;}
+.cabeçalho {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;}
+
+p {text-align: justify;}
+
+.Título {color:rgb(7, 1, 12);}
+
+body{max-width: 70%;
+     margin: 0px auto;}
+
+.final{text-align: center;}
+
+.botão{padding: 2px 2px;
+    width: 50px;
+    border: 1px solid #555;
+    border-radius: 2px;
+    text-align: center;
+    background-color:rgb(240, 240, 240);
+    user-select: none;
+    cursor: pointer;}
+

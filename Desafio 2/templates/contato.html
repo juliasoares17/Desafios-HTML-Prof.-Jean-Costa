@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block titulo %} Contato {% endblock %}
+
+{% block conteudo %}
+<body background="../static/imagens/fundo2.png" class="fundo">
+    <h1>Entre em contato</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl.</p>
+<hr>
+    <form action="">
+            <label for="frame">Seu e-mail:</label><br>
+            <input type="text" id="frame" name="frame"><br>
+            <label for="fsobrenome">Assunto:</label><br>
+            <input type="text" id="frame" name="frame"><br>
+            <label for="fdescrição">Descrição:</label><br>
+            <textarea name="fdescrição" id="fdescrição" cols="18" rows="2"></textarea><br>
+    </form>
+        <div class="botão">Enviar</div>
+{% endblock %}
